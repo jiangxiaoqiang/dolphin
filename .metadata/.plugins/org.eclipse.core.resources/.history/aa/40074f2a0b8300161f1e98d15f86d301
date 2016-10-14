@@ -1,0 +1,5 @@
+package dolphin.dao;
+
+public interface CountryDao {
+	String getCountry(int id);
+}

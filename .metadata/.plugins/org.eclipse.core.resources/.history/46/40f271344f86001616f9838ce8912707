@@ -1,0 +1,6 @@
+package dolphin.controller;
+
+@Controller
+public class HomeController {
+
+}

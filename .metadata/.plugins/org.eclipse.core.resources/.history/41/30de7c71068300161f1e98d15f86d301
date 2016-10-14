@@ -1,0 +1,5 @@
+# Êı¾İ¿âÅäÖÃ
+jdbc.driverClass = com.mysql.jdbc.Driver
+jdbc.url = jdbc:mysql://127.0.0.1:3306/test
+jdbc.user = root
+jdbc.password =123456

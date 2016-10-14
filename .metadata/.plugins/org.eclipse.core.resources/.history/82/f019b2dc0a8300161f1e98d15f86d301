@@ -1,0 +1,6 @@
+package dolphin.service;
+
+public interface CountryService {
+
+	String getCountyById(int id);
+}

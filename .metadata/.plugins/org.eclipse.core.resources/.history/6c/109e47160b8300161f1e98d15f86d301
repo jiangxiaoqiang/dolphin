@@ -1,0 +1,16 @@
+package dolphin.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import dolphin.mode.Country;
+import dolphin.service.CountryService;
+
+public class CountryServiceImpl implements CountryService{
+
+	@Autowired
+	private CountryDao countryDao;
+	
+	public Country getCountyById(int id) {
+		
+	}
+}

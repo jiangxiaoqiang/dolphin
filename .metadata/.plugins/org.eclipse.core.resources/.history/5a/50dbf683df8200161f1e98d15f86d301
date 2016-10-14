@@ -1,0 +1,16 @@
+package dolphin;
+
+import org.springframework.context.annotation.Bean;
+
+@Configuration
+@ComponentScan
+public class Application {
+	@Bean
+    MessageService mockMessageService() {
+        return new MessageService() {
+            public String getMessage() {
+              return "Hello World!";
+            }
+        };
+    }
+}

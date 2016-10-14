@@ -1,0 +1,12 @@
+package dolphin.service.impl;
+
+import dolphin.mode.Country;
+import dolphin.service.CountryService;
+
+public class CountryServiceImpl implements CountryService{
+
+	public Country getCountyById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}
